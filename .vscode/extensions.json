@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-essential"
+  ]
+}
