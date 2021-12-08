@@ -7,6 +7,10 @@
        >
           <el-table-column v-for="colum in colums" :key="colum" :label="colum.label" :prop="colum.prop" />
        </el-table> 
+       <div class="tringle"></div>
+       <label for="male">Male</label>
+       <input type="radio" name="sex" id="male" />
+        <input type="radio" name="sex" id="male1" />
     </div>
 </template>
 <script lang="ts">
@@ -69,5 +73,13 @@ export default {
 }
 .el-table .success-row {
   --el-table-tr-background-color: var(--el-color-success-lighter);
+}
+.tringle{
+    width: 0;
+    height: 0;
+    border-width: 10px ;
+    border-style: solid;
+    border-color: red #0099cc #000 pink;
+    /* transform: rotate(90deg); */
 }
 </style>
